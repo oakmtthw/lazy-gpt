@@ -2,7 +2,7 @@ import React from 'react'
 import './MessageBox.css'
 import TypewriterText from '../TypewriterText/TypewriterText'
 
-function MessageBox({isBot, content, buttonDisable}) {
+function MessageBox({isBot, content, buttonDisable, currentText}) {
 
 
   return (
@@ -16,7 +16,7 @@ function MessageBox({isBot, content, buttonDisable}) {
                     LazyGPT
                 </div>
                 <div className="text-content">
-                    <TypewriterText content={content} buttonDisable={buttonDisable}/>
+                    <TypewriterText changingCurrentText={currentText} text={content} delay={50} buttonDisable={buttonDisable}/>
                 </div>
             </div>
         </div> : <div className="message user">

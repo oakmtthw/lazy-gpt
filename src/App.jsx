@@ -2,7 +2,7 @@ import './App.css'
 import Input from './components/Input/Input.jsx'
 import TopBar from './components/TopBar/TopBar.jsx'
 import Feed from './components/Feed/Feed.jsx'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { lazyResponses } from './assets/responds.js'
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
       handleInputReset();
       generateBotResponse();
     }
+
   }
 
   const generateBotResponse = () => {
@@ -29,18 +30,23 @@ function App() {
     setTimeout(() => {
       const random = Math.floor(Math.random()*lazyResponses.length);
       setMessages((prevMessages) => [...prevMessages, {isBot: true, content: lazyResponses[random].answer, isAnim: true}]);
-    }, randomTime)
-  }
+    }, randomTime)  }
 
   const handleButtonDisable = (condition) => {
     setIsButtonDisable(condition);
   }
 
+  const handleChangingCurrentText = (currentText) => {
+    childRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const childRef = useRef(null);
+
   return (
     <div className="app-container">
       <div className="wrapper">
         <TopBar />
-        <Feed messages={messages} buttonDisable={handleButtonDisable}/>
+        <Feed forwardedRef={childRef} currentText={(currentText) => handleChangingCurrentText(currentText)} messages={messages} buttonDisable={handleButtonDisable} />
         <Input handleSubmit={handleSubmit} isSendDisable={isButtonDisable}/>
       </div>
     </div>

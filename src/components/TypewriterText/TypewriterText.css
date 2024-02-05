@@ -1,48 +1,5 @@
-:root {
-    --typewriterSpeed: 6s;
-    --typewriterChars: 24;
-    --backgroundColor: white;
-}
-
 .typewritertext {
-    
-    position: relative;
-    width: max-content;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-}
-
-.typewritertext::before,
-.typewritertext::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.typewritertext.play::before {
-    background: var(--backgroundColor);
-    animation: typewriter var(--typewriterSpeed) steps(var(--typewriterChars)) 3s forwards;
-}
-
-.typewritertext.play::after {
-    width: 4px;
-    background-color: white;
-    animation:
-    typewriter var(--typewriterSpeed) 3s steps(var(--typewriterChars)) forwards,
-    blink 0.5s steps(var(--typewriterChars)) infinite;
-}
-
-@keyframes typewriter {
-    to {
-        left: 100%;
-    }
-}
-
-@keyframes blink {
-    to {
-        background: var(--backgroundColor);;
-    }
 }
