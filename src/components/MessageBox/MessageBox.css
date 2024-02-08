@@ -1,18 +1,25 @@
 .message {
-    padding: 20px;
+    padding: 26px;
     display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .message > .msg-pfp {
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 .message > .msg-text {
     flex: 1;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
 }
 
-.message > .msg-text > .name {
+.message> .msg-text > .name {
     font-weight: 700;
-    color: rgb(168, 74, 255);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    color: white;
 }

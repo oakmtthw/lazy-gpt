@@ -1,6 +1,6 @@
 .feed-container {
     color: #ccc;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;

@@ -1,20 +1,40 @@
 .input-container input {
     width: 100%;
+    font-size: 16px;
     box-sizing: border-box;
-    height: 40px;
-    padding: 20px;
+    height: 52px;
+    color: white;
+    padding: 30px 60px 30px 30px;
+    background-color: black;
+    border: 0;
+    outline: 1px solid transparent;
+    border-top: 1px solid var(--lightgray);
 }
 
 .input-container button {
-    margin-left: -40px;
+    transform: translateY(4px);
+    margin-left: -44px; 
     width: 32px;
     height: 32px;
+    border: 0;
+    border-radius: 8px;
+    padding-top: 2px;
 }
 
 .input-container button.disable {
-    background-color: red;
+    opacity: 0.4;
+    background-color: var(--lightgray);
+    color: white;
+    cursor: default;
 }
 
 .input-container button.able {
-    background-color: green;
+    opacity: 1;
+    background-color: #08de5d;
+    color: black;
+    cursor: pointer;
+}
+
+.input-container button.able:hover {
+    opacity: 0.8;
 }
