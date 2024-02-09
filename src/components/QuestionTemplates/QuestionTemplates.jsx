@@ -1,5 +1,6 @@
 import React from 'react'
 import './QuestionTemplates.css'
+import Loading from '../Loading/Loading'
 
   function QuestionTemplates({ handleButton }) {
     return (

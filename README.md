@@ -26,7 +26,7 @@ The lazy version of ChatGPT. It's not true artificial intelligence, but merely i
 Enter any question, request, or anything else, or choose from the sample options on the homepage, and LazyGPT will surely find an excuse not to answer it.
 
 ### Try it here
-[LazyGPT](https://github.com/oakmtthw/lazy-gpt)
+[Try LazyGPT](https://lazygpt-1253b.web.app/)
 
 <br />
 

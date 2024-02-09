@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Loading from '../Loading/Loading';
 
 function TypewriterText({text, waitDelay, delay, buttonDisable, changingCurrentText}) {
 
@@ -40,7 +41,7 @@ function TypewriterText({text, waitDelay, delay, buttonDisable, changingCurrentT
   return (
     <div className='typewritertext' style={{color: "var(--green"}}>
          {/* icon 'Pulse / spinner' from loading.io */}
-        {!currentText ?  <img style={{marginTop: '-3px'}} height={32} src="../src/assets/loading.gif" alt="loading"/> : currentText}
+        {!currentText ?  <Loading /> : currentText}
     </div>
   )
 }
