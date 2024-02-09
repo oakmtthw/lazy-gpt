@@ -26,3 +26,4 @@ dist-ssr
 .env
 .txt
 *.txt
+src/assets/responds.js

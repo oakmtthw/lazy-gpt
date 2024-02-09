@@ -1,5 +1,38 @@
 .topbar-container {
     color: white;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid var(--lightgray);
     padding: 20px;
+}
+
+.tb-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tb-status {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    animation: blink 2s infinite;
+}
+
+.tb-status > .circle{
+    width: 8px;
+    height: 8px;
+    background-color: var(--green);
+    margin-right: 6px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.6;
+    }
+}
+
+.tb-status > .statustext {
+    color: var(--green);
+    font-size: 12px;
+    text-transform: uppercase;
 }

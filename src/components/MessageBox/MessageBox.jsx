@@ -9,7 +9,7 @@ function MessageBox({isBot, content, buttonDisable, currentText}) {
     <div className='messagebox-container'>
         {isBot ? <div className="message bot">
             <div className="msg-pfp">
-                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-robot-face" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 5h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2z" /><path d="M9 16c1 .667 2 1 3 1s2 -.333 3 -1" /><path d="M9 7l-1 -4" /><path d="M15 7l1 -4" /><path d="M9 12v-1" /><path d="M15 12v-1" /></svg>
+                <img width={24} height={24} src='../src/assets/lazygpt-logo-svg.svg' alt='[lazygpt-pfp]'/>
                 <span style={{textAlign: "right", color: "var(--green"}}>A:</span>
             </div>
             <div className="msg-text">

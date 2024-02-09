@@ -38,9 +38,9 @@ function TypewriterText({text, waitDelay, delay, buttonDisable, changingCurrentT
   }, [currentIndex])
 
   return (
-    <div className='typewritertext' style={{color: "#08de5d"}}>
+    <div className='typewritertext' style={{color: "var(--green"}}>
          {/* icon 'Pulse / spinner' from loading.io */}
-        {!currentText ?  <img style={{marginTop: '-3px'}} height={32} src="../src/assets/loading2.gif" alt="loading"/> : currentText}
+        {!currentText ?  <img style={{marginTop: '-3px'}} height={32} src="../src/assets/loading.gif" alt="loading"/> : currentText}
     </div>
   )
 }

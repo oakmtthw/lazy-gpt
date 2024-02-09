@@ -4,7 +4,11 @@ import './TopBar.css'
 function TopBar() {
   return (
     <div className='topbar-container'>
-        LazyGPT
+        <div className="tb-name">LazyGPT</div>
+        <div className="tb-status">
+          <div className="circle"></div>
+          <div className="statustext">Available now</div>
+        </div>
     </div>
   )
 }
