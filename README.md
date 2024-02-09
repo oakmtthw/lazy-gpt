@@ -17,7 +17,7 @@
 
 ![screenshot](https://github.com/oakmtthw/lazy-gpt/blob/master/src/assets/screenshot_01.png?raw=true)
 
-The lazy version of ChatGPT. It's not true artificial intelligence, but merely its imitation, which at first glance looks real. It was created for fun. You can chat with the bot, and it will always find some excuse not to answer the question. To avoid boredom, the bot will occasionally bombard us with a randomly generated fun fact from [API Ninja](https://api-ninjas.com/).
+The lazy version of ChatGPT. It's not true artificial intelligence, but merely its imitation, which at first glance looks real. It was created for fun. You can chat with the bot, and it will always find some excuse not to answer the question. To avoid boredom, the bot will occasionally bombard us with a randomly generated fun fact from [API Ninjas](https://api-ninjas.com/).
 
 <br />
 
@@ -39,7 +39,6 @@ Enter any question, request, or anything else, or choose from the sample options
 ## Credits
 
 * Icons from: [Tabler Icons](https://tabler.io/icons)
-* Loading animation GIF from: [LOADING.IO](https://loading.io)
 * UI Inspiration: https://dribbble.com/shots/20751285-Personalized-Financial-Advisor
 
 <br />
