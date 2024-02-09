@@ -12,13 +12,13 @@
 
 ## About
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/oakmtthw/lazy-gpt/blob/master/src/assets/screenshot_01.png?raw=true)
+[![Product Name Screen Shot][https://github.com/oakmtthw/lazy-gpt/blob/master/src/assets/screenshot_01.png?raw=true]]
 
 The lazy version of ChatGPT. It's not true artificial intelligence, but merely its imitation, which at first glance looks real. It was created for fun. You can chat with the bot, and it will always find some excuse not to answer the question. To avoid boredom, the bot will occasionally bombard us with a randomly generated fun fact from [API Ninja](https://api-ninjas.com/).
 
 
 
-### How to use
+## How to use
 
 Enter any question, request, or anything else, or choose from the sample options on the homepage, and LazyGPT will surely find an excuse not to answer it. Check it out here [link]
 
