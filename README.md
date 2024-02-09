@@ -6,28 +6,13 @@
   </a>
 
   <h3 align="center">LazyGPT</h3>
-  
-  <p align="center">
-    A lazy version of [ChatGPT](https://chat.openai.com)
-    <br />
-    <br />
-    <a href="#about">About</a>
-    ·
-    <a href="#how-to-use">How to use</a>
-    ·
-    <a href="#support">Support</a>
-     ·
-    <a href="#credits">Credits</a>
-     ·
-    <a href="#license">License</a>
-  </p>
 </div>
 
 
 
 ## About
 
-![screenshot](https://github.com/oakmtthw/lazy-gpt/blob/master/src/assets/screenshot_01?raw=true)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/oakmtthw/lazy-gpt/blob/master/src/assets/screenshot_01.png?raw=true)
 
 The lazy version of ChatGPT. It's not true artificial intelligence, but merely its imitation, which at first glance looks real. It was created for fun. You can chat with the bot, and it will always find some excuse not to answer the question. To avoid boredom, the bot will occasionally bombard us with a randomly generated fun fact from [API Ninja](https://api-ninjas.com/).
 
