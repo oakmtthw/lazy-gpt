@@ -5,3 +5,17 @@
     flex-direction: column;
     overflow-y: scroll;
 }
+
+@media (max-height: 700px) {
+    .feed-container {
+        height: 420px;
+    }
+}
+
+
+
+@media (max-height: 640px) {
+    .feed-container {
+        height: 360px;
+    }
+}

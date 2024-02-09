@@ -9,7 +9,7 @@ function MessageBox({isBot, content, buttonDisable, currentText}) {
     <div className='messagebox-container'>
         {isBot ? <div className="message bot">
             <div className="msg-pfp">
-                <img width={24} height={24} src='../src/assets/lazygpt-logo-svg.svg' alt='[lazygpt-pfp]'/>
+                <img width={24} height={24} src='./lazygpt-logo-svg.svg' alt='[lazygpt-pfp]'/>
                 <span style={{textAlign: "right", color: "var(--green"}}>A:</span>
             </div>
             <div className="msg-text">

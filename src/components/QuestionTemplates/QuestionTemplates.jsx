@@ -9,7 +9,7 @@ import Loading from '../Loading/Loading'
       <div className="qt-wrapper">
         
        <div className="qt-header-space">
-        <img width={48} height={48} src='../src/assets/lazygpt-logo-svg.svg' alt='lazygpt-logo'/>
+        <img width={48} height={48} src='./lazygpt-logo-svg.svg' alt='lazygpt-logo'/>
         <h2>How can I help you today?</h2>
        </div>
 
