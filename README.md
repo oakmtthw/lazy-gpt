@@ -39,7 +39,6 @@ Enter any question, request, or anything else, or choose from the sample options
 ## Credits
 
 * Icons from: [Tabler Icons](https://tabler.io/icons)
-* Loading animation GIF from: [LOADING.IO](https://loading.io)
 * UI Inspiration: https://dribbble.com/shots/20751285-Personalized-Financial-Advisor
 
 <br />
