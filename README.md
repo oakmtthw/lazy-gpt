@@ -9,6 +9,7 @@
   <p align="center">
     A lazy version of ChatGPT
   </p>
+  <a align="center" href="https://lazygpt-1253b.web.app/">Try it here</a>
 </div>
 
 <br />
@@ -24,9 +25,6 @@ The lazy version of ChatGPT. It's not true artificial intelligence, but merely i
 ## How to use
 
 Enter any question, request, or anything else, or choose from the sample options on the homepage, and LazyGPT will surely find an excuse not to answer it.
-
-### Try it here
-[Try LazyGPT](https://lazygpt-1253b.web.app/)
 
 <br />
 
