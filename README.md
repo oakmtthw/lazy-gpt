@@ -10,7 +10,7 @@
     A lazy version of ChatGPT
   </p>
   
-  <a align="center" href="#" onclick='window.open("https://lazygpt-1253b.web.app/");return false;'>Try it here</a>
+  <a align="center" href="https://lazygpt-1253b.web.app/">Try it here</a>
 </div>
 
 <br />
