@@ -9,7 +9,7 @@
   <p align="center">
     A lazy version of ChatGPT
   </p>
-  <a align="center" href="https://lazygpt-1253b.web.app/">Try it here</a>
+  <a align="center" href="https://lazygpt-1253b.web.app/" target="_blank">Try it here</a>
 </div>
 
 <br />
