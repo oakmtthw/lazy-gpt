@@ -7,7 +7,7 @@
 
   <h3 align="center">LazyGPT</h3>
   <p align="center">
-    A lazy version of <a href="https://chat.openai.com/">ChatGPT</a>
+    A lazy version of ChatGPT
   </p>
 </div>
 
